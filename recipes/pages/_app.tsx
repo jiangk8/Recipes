@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
-import FlipCard from "../Components/RecipeCard";
+import FlipCard from "../components/FlipCard";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.scss";
@@ -30,7 +30,7 @@ export default function App() {
   return (
     <div className="container">
       <div className="row h-100">
-        <div class="col d-flex flex-column flex-md-row justify-content-around align-items-center">
+        <div className="col d-flex flex-column flex-md-row justify-content-around align-items-center">
           {cards.map((card) => (
             <FlipCard key={card.id} card={card} />
           ))}
