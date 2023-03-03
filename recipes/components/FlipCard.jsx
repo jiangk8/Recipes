@@ -1,6 +1,6 @@
 import { useState } from "react";
 import cn from "classnames";
-import {} from "./styled-components";
+import { CardBody, CardTextFont } from "./styled-components";
 
 function FlipCard({ card }) {
   const [showBack, setShowBack] = useState(false);
@@ -17,14 +17,14 @@ function FlipCard({ card }) {
         })}
       >
         <div className='card front'>
-          <div className='card-body d-flex justify-content-center align-items-center'>
-            <p className='card-text fs-1 fw-bold'>{card.front}</p>
-          </div>
+          <CardBody>
+            <CardTextFont>{card.front}</CardTextFont>
+          </CardBody>
         </div>
         <div className='card back'>
-          <div className='card-body d-flex justify-content-center align-items-center'>
+          <CardBody>
             <p className='card-text fs-1 fw-bold'>{card.back}</p>
-          </div>
+          </CardBody>
         </div>
       </div>
     </div>

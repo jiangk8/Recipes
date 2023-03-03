@@ -9,32 +9,32 @@ import "./styles.scss";
 const cards = [
   {
     id: "1",
-    front: "Hover",
+    front: "Lamb Noodles",
     back: "Back",
   },
   {
     id: "2",
-    front: "Click",
+    front: "Stir Fry Meat + Asian Veggie Rice",
     back: "Back",
   },
   {
     id: "3",
-    front: "Focus",
+    front: "Pork Lotus Root Soup",
     back: "Back",
   },
   {
     id: "3",
-    front: "Focus",
+    front: "Leek Soup",
     back: "Back",
   },
   {
     id: "3",
-    front: "Focus",
+    front: "Pasta",
     back: "Back",
   },
   {
     id: "3",
-    front: "Focus",
+    front: "Udon",
     back: "Back",
   },
 ];
